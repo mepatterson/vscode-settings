@@ -1,0 +1,46 @@
+{
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "editor.snippetSuggestions": "top",
+  "editor.dragAndDrop": false,
+  "workbench.colorTheme": "Boxy Ocean",
+  "editor.fontFamily": "'Office Code Pro D', monospace",
+  "editor.fontSize": 14,
+  "ruby.lint": {
+    "reek": false,
+    "rubocop": false,
+    "ruby": true, //Runs ruby -wc
+    "fasterer": false,
+    "debride": false,
+    "ruby-lint": false
+  },
+  "editor.tabCompletion": true,
+  "gitlens.mode.active": "zen",
+  "editor.minimap.enabled": true,
+  "editor.rulers": [
+    80
+  ],
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#121212",
+    "editor.selectionBackground": "#000"
+  },
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  /* Automatically remove indentation in empty lines on save */
+  "emptyIndent.removeIndent": true,
+  /* Highlight indent on empty lines */
+  "emptyIndent.highlightIndent": false,
+  /* Highlight indent color */
+  "emptyIndent.highlightColor": "rgba(246,36,89,0.6)",
+  /* Excluded file types */
+  "emptyIndent.exclude": [
+    ".md"
+  ],
+  "workbench.editor.tabSizing": "shrink",
+  "git.confirmSync": false
+}
